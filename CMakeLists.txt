@@ -13,7 +13,7 @@ set(BOOST_REQUIRED_COMPONENTS
         unit_test_framework
         program_options
         )
-find_package(Boost "1.54.0" REQUIRED ${BOOST_REQUIRED_COMPONENTS})
+find_package(Boost "1.58.0" REQUIRED ${BOOST_REQUIRED_COMPONENTS})
 include_directories(SYSTEM ${Boost_INCLUDE_DIRS})
 link_directories(${Boost_LIBRARY_DIRS})
 

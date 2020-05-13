@@ -1,0 +1,13 @@
+{
+  "head": {
+    "array": [
+      {
+        "param1": "val1",
+        "param2": 2,
+        "param3": [2, 3, 4]
+      }
+    ],
+    "property2": "some text",
+    "property3": 56
+  }
+}
