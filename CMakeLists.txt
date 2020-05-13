@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
-project(ComputerMonitoringStatisticsParser)
+set(PROJECT_NAME BOOSTPtreeSupporter)
+project(${PROJECT_NAME})
 
 set(BOOST_REQUIRED_COMPONENTS
         system
@@ -20,6 +21,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++2a")
 
 file(GLOB_RECURSE SOURCES RELATIVE ${CMAKE_SOURCE_DIR} "src/*")
 
-add_executable(ComputerMonitoringStatisticsParser ${SOURCES})
+add_executable(${PROJECT_NAME} ${SOURCES})
 
-target_link_libraries(ComputerMonitoringStatisticsParser ${Boost_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})

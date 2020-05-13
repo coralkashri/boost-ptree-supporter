@@ -1,4 +1,6 @@
-//
-// Created by sherlock on 5/14/20.
-//
+#include <iostream>
 
+int main() {
+
+    return EXIT_SUCCESS;
+}
