@@ -6,6 +6,5 @@ int main() {
     boost::property_tree::read_json("../test_sources/source_a.json", pt.get_base());
     std::cout << (std::string)pt << std::endl;
 
-
     return EXIT_SUCCESS;
 }

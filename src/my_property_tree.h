@@ -8,7 +8,7 @@ class my_ptree : public boost::property_tree::ptree {
 public:
     my_ptree();
 
-    my_ptree(boost::property_tree::ptree &ptree);
+    explicit my_ptree(boost::property_tree::ptree &ptree);
 
     boost::property_tree::ptree& get_base();
 
@@ -18,6 +18,5 @@ public:
 
 private:
 };
-
 
 #endif
